@@ -9,7 +9,7 @@ Group:		Development/Python
 BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
-Provides:	python%{pyver}dist(pdfminer-six)
+Provides:	python%{pyver}dist(pdfminer-six) = %{version}
 
 %description
 PDF parser and analyzer
