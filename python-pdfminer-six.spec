@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/pdfminer-six/
 License:	MIT
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(setuptools-git-versioning)
 BuildSystem:	python
 BuildArch:	noarch
 Provides:	python%{pyver}dist(pdfminer-six) = %{version}
